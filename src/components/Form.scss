@@ -1,0 +1,27 @@
+.switch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed #fda94e;
+  padding-top: 20px;
+}
+
+.prediction-form {
+  margin-top: 20px;
+  border: 1px dashed #fda94e;
+}
+
+.ant-form-item {
+  margin: 15px;
+}
+
+.ant-form-item-label {
+  text-align: left;
+  margin-right: 15px;
+  > label {
+    align-items: flex-start;
+    margin-right: 20px;
+    font-weight: bolder;
+  }
+}
